@@ -12,7 +12,7 @@ export default Ember.Object.create({
   },
 
   count() {
-    if (this.state.usernames.length < 2) { return }
+    if (this.state.usernames.length < 50) { return }
     return h('span.post-retort__count', this.state.usernames.length.toString())
   },
 
