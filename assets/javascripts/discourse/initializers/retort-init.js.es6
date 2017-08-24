@@ -32,7 +32,7 @@ function initializePlugin(api) {
   api.addPostMenuButton('retort', attrs => {
     return {
       action: 'clickRetort',
-      icon: "\f164" " " "\f165",
+      icon: 'smile-o-',
       title: 'retort.title',
       position: 'first'
     }
